@@ -45,9 +45,8 @@ double mode(const std::vector<double>& data) {
 }
 
 double percentile(const std::vector<double>& data, int p) {
-    int data_size = data.size();
-    int i = std::floor(p * data_size/100);
-    return data[i];
+    int per_index = (data.size() - 1)*(p * 0.01);
+    return data[per_index];
 }
 
 double median(const std::vector<double>& data) {
