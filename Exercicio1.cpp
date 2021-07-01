@@ -84,7 +84,7 @@ void QuickSort(std::vector<T>& data) {
 
 int main()
 {
-    std::vector<double> data = { 4,2,6,7,8,2,3,5,2,4,6,3,8,9,8,6,6 }; // média
+    std::vector<double> data = { 4,2,6,7,8,2,3,5,2,4,6,3,8,9,8,6,6 }; 
     int p = 25;
 
     QuickSort(data);
