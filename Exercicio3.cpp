@@ -24,7 +24,7 @@ int main()
 
     std::cout << "Selecione uma opcao para determinar a probabilidade de um ponto ocorrer em uma distribuição normal: " << std::endl;
     std::cout << "  " << "0 - para inserir o ponto, media e desvio padrao." << std::endl;
-    std::cout << "  " << "1 - para inserir somento o ponto(media = 0 e desvio padrao = 1" << std::endl;
+    std::cout << "  " << "1 - para inserir somente o ponto(media = 0 e desvio padrao = 1)" << std::endl;
     
     std::cin >> option;
 
