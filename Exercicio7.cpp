@@ -43,7 +43,7 @@ double estatisica(const std::vector<double>& data1, const std::vector<double>& d
 int main()
 {
     std::vector<double> data1 = { 2.4, 4.9, 3.9, 8.7, 5.6, 4.3, 5.4, 3.7, 3.1, 6.5 };
-    std::vector<double> data2 = { 5.4, 6.9, 1.9, 2.7, 6.6, 4.9, 9.4, 2.7, 5.1};
+    std::vector<double> data2 = { 5.4, 6.9, 1.9, 2.7, 6.6, 4.9, 9.4, 2.7, 5.1, 3.7};
 
     double mean1, mean2, std_dev1, std_dev2;
 
